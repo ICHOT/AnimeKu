@@ -1,0 +1,597 @@
+.head{
+    display: -webkit-inline-flex;
+    display: flex;
+    background-color: #161616;
+    
+
+}
+.body{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #161616;
+
+    
+
+}
+.aniweblogo{
+    width: 40%;
+    height: 50%;
+}
+
+
+.btnheadlogin{
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.btnheadlogin:hover{
+    background-color:seagreen;
+    color:  black;
+}
+
+.btndownload{
+    margin: 5% 25%;
+    width: 50%;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.btndownload:hover{
+    background-color: crimson;
+    color:  black;
+}
+
+.headsearch{
+    display: -webkit-inline-flex;
+    display: flex;
+    margin-top: 5%;
+}
+
+.txtsearchanime{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.btnheadsearch{
+    margin-left: 5px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.btnheadsearch:hover{
+    background-color: crimson;
+    color:  black;
+}
+
+.headnav{
+    margin: auto;
+    margin-top: -8%;
+    display: -webkit-inline-flex;
+    display: flex;
+    background-color: #202020;
+    padding: 10px 10px;
+    border: none;
+    
+}
+
+.btnheadnavhome,.btnheadnavanimelist,.btnheadnavgenres,.btnheadnavabout{
+    width: 150px;
+    height: 45px;
+    margin-left: 7.2%;
+    border-radius: 4px;
+    border: none;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.btnheadnavhome:hover,.btnheadnavanimelist:hover,.btnheadnavgenres:hover,.btnheadnavabout:hover{
+    background-color: crimson;
+    color:  black;
+}
+.promotionnote{
+    display: -webkit-inline-flex;
+    display: flex;
+    text-align: center;
+    margin: 1% 1%;
+}
+
+.prompic{
+    height: 20%;
+    width: 20%;
+
+}
+
+.promnote{
+    margin: 6% 5%;
+    color: ivory;
+}
+
+.animpic{
+    height: 200px;
+    width: 140px;
+    cursor: pointer;
+  
+}
+
+.animpiclist{
+    height: 250px;
+    width: 180px;
+    cursor: pointer;
+
+    margin-bottom: 1%;
+}
+
+
+.animpictile{
+    margin-top: 0.5%;
+    margin-left: 7.3%;
+    margin-bottom: 0.5%;
+    
+}
+
+.genretitletile{
+    height: 110%;
+    margin-top: 1%;
+    margin-left: 3.6%;
+    margin-right: 3.6%;
+    margin-bottom: 1%;
+}
+
+.animetile{
+    display: -webkit-inline-flex;
+    display: flex;
+    margin: 2% 2%;
+
+}
+
+.genretile{
+  
+    margin: 2% 2%;
+    background-color: #202020;
+}
+
+.animelisttiles,.animeviewtiles{
+    background-color: #202020;
+    padding-top: 0.3%;
+
+}
+
+.animewatchtile{
+    background-color: #161616;
+    padding-top: 0.3%;
+}
+
+.animtitle{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: -0.1%;
+    cursor: pointer;
+    
+}
+
+.genretitles{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: white;
+    margin-top: -0.1%;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+.genretitle{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: -0.1%;
+    cursor: pointer;
+}
+.genretitle:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.animtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    
+}
+
+.CRtile{
+    background-color: #161616;  
+    margin: auto;
+    
+    
+}
+.crpara{
+    color: dimgray;
+}
+
+.animeviewtile{
+    margin: 1% 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+}
+
+.animelisttile{
+    display: flex;
+    color: beige;
+}
+.animewatchtile{
+    display: flex;
+    color: beige;
+    background-color: #202020;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.animelisttitle{
+    margin-left: 5%;
+    text-decoration: aqua underline;
+    cursor: pointer;
+ 
+}
+
+
+.genre{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 150%;
+    display: flex;
+   color: yellow;
+}
+
+.summary{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 150%;
+}
+
+.summarytext{
+    
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.listdivider{
+    height: 5px;
+    background-color: #161616;
+}
+
+.genredivider{
+    height: 100px;
+    background-color: #161616;
+}
+
+.animelistview{
+    background-color: #202020;
+    text-align: center;
+    color: beige;
+    font-size: 34px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: beige underline;
+    margin-bottom: -2%;
+}
+
+.videoarea{
+    padding: 2% 2%;
+    margin: 2% 0%;
+    background-color: #202020;
+    border-radius: 15px;
+
+}
+
+.videoplayarea{
+    margin: 0% 14.5%;
+    border-radius: 15px;
+    width: 640px;
+    height: 360px;
+}
+
+.episodenum{
+    font-size: 21px;
+    margin: 2% 41%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */ /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: rgba(0,0,0,.5);
+    margin: auto;
+    margin-top: -5%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    margin-top: -2%;
+    color: red;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.Box
+{
+    position: absolute;
+    margin-top: -5%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+
+.puti{
+    background-color: #fff;
+}
+.user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+h4
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+::placeholder
+{
+    color: rgba(255,255,255,.5);
+}
+
+.Box p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.loginBox
+{
+  position: absolute;
+  top: 140%;
+  margin-top: -38%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 700px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5);
+}
+.loginBox p,.Box p
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+.loginBox input,.Box input
+{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBox input[type="text"],.loginBox input[type="email"],
+.loginBox select,
+.loginBox input[type="password"],.Box input[type="text"],.Box input[type="email"],
+.Box input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+::placeholder
+{
+  color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"],.Box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover,.Box input[type="submit"]:hover
+{
+  background: #efed40;
+  color: #262626;
+}
+.loginBox a,.Box a
+{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Box input[type="text"],.Box input[type="email"],
+.Box input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.Box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Box input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.Box a
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signinbox{
+    margin-bottom: -5%;
+}
+
+
+/* ANIMEKU 
+.bglogo{
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+.paket{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+
+@media(min-width:600px){
+    .content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+    
+        .content div{
+            width: 19%;
+            height: 350px;
+          }
+          .logo{
+            width: 250px;
+            height: 100px;
+            box-sizing: content-box;
+        }
+        .bglogo{
+            height: 10%;
+            width: 100%;
+            background-color: black;
+        }
+    }
+*/

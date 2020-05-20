@@ -1,0 +1,19 @@
+#contriller Anime berisi semua anime 
+    yang di load dari view anime
+
+#contriller Rekomendasi berisi semua anime Rekomendasi
+    (mungkin ga kepake karena semua anime berada di controller Anime)
+
+#contriller AnimeKu berisi semua anime pada halaman depan & tempat untuk mengganti
+    gambar dan link tujuan
+
+#controller (JUDUL ANIME) berisi link download/stream episode (di load dari view stream)
+
+#jika di pindahkan ke hosting ganti  [$domain] pada masing2 controller
+
+#jika menambahkan link harus link website (bukan dari assets)
+
+nav= ga ada 'ICHOT' 'CARA DOWNLOAD' 'LAPORKAN LINK RUSAK'
+navbar= FULL, PEMISAH "ANIME ON GOING"
+navbaroff= FULL "TIDAK ADA PEMISAH"
+navbaron= FULL "PEMISAH CUSTOM" buat episode warna merah

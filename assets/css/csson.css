@@ -1,0 +1,72 @@
+body{background-color: black;}
+
+/**ISI**/
+.content{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.content div{
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 35%;
+    height: 250px;
+    box-sizing: border-box;
+}
+.content div img{
+    width: 100%;
+    height: 100%;
+}
+.content div h1{
+    font-size: 30px;
+ 
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+/* LOGO */
+.logo{
+    width: 250px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.bglogo{
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+/* tombol */
+.paket{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+/* table */
+.table{
+    width: 400px;
+}
+
+
+
+@media(min-width:600px){
+    .content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+    
+        .content div{
+            width: 19%;
+            height: 350px;
+          }
+        }
+
+
+
+

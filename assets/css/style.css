@@ -1,0 +1,157 @@
+
+
+body{
+    background-color: black;
+  
+
+}
+
+.logo{
+    width: 250px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.bglogo{
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.paket{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+/**ISI**/
+.content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content div{
+    /* background-color: turquoise; */
+    margin-bottom: 15px;
+    width: 32%;
+    height: 250px;
+    box-sizing: border-box;
+}
+.content div img{
+    width: 100%;
+    height: 100%;
+}
+/* pemisah */
+.pemisah{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%; 
+}
+
+/* LIST ANIME */
+.az{
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    font-size: small;
+}
+
+/* footer */
+.footer{
+    height: 150px;
+    width: 100%;
+}
+
+ /* ANIWEB  */
+ .head{
+    display: -webkit-inline-flex;
+    display: flex;
+    background-color: #161616;
+}
+
+.a1{
+    margin: 1% 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+}
+.a2{
+    background-color: #161616;
+    padding-top: 0.3%;
+}
+.a3{
+   
+  margin-left: 60px;
+  margin-top: 15px;
+    height: 250px;
+    width: 180px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+.a4{
+    margin-left: 5%;
+    text-decoration: aqua underline;
+    cursor: pointer;
+    color: black;
+}
+.a5{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 100%;
+    display: flex;
+   color: yellow;
+}
+.a6{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 100%;
+    color: grey;
+}
+.a7{
+    
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 90%;
+    color: black;
+}
+
+
+/* media qwery */
+/** UKURAN PC **/
+
+@media(min-width:600px){
+  
+    .content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+    
+        .content div{
+            width: 19%;
+            height: 350px;
+          }
+          .logo{
+            width: 250px;
+            height: 100px;
+            box-sizing: content-box;
+        }
+        .bglogo{
+            height: 10%;
+            width: 100%;
+            background-color: black;
+        }
+        .a4{
+            margin-left: 5%;
+            text-decoration: aqua underline;
+            cursor: pointer;
+            color: black;
+        }
+       
+    }
+    
