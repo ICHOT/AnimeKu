@@ -1,0 +1,14 @@
+/* Custom Modal Bootstrap */
+.modal-content{
+  background-color: black;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-body{
+  color: white;
+}
+.modal-footer{
+  /* border-top: none;  */ 
+  margin-top: 0;
+}

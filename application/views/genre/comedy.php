@@ -1,0 +1,2 @@
+<div class="content">
+  <div><a href="<?php echo $domain; ?>Anime/Mahou_Shoujo_Nante_Mou_Ii_Desukara"><img src="<?= base_url('assets/'); ?>gambar/ANIME/Mahou_Shoujo_Nante_Mou_Ii_Desukara.jpg" alt="..." class="rounded-left"></a></div>

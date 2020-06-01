@@ -19,6 +19,29 @@ body{
     background-color: black;
 }
 
+/* infozingle */
+    .infozingle{overflow:hidden;
+    width:73%;
+    color:#adabab}
+    
+    .infozingle p{white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin:0 0px;line-height:22px;
+    color:#adabab;
+    ;padding:0px}
+    
+    .infozingle b{display:block;
+    float:left;
+    width:95px;
+    color:#adabab}
+    
+    .infozingle a{color:#adabab}
+    
+    .infozingle{width:100%}
+    
+    .infozingle p{float:none;
+    width:100%}
 
 
 .paket{
@@ -56,10 +79,14 @@ body{
 
 /* LIST ANIME */
 .az{
-    padding: 10px;
-    display: flex;
-    justify-content: start;
-    font-size: small;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.listaz{
+        width: 10%;
+        height: 10%;
 }
 
 /* footer */
@@ -95,7 +122,7 @@ body{
 }
 .a4{
     margin-left: 5%;
-    text-decoration: aqua underline;
+    /* text-decoration: aqua underline; */
     cursor: pointer;
     color: black;
 }
@@ -117,7 +144,26 @@ body{
     margin-left: 7%;
     margin-top: 2%;
     width: 90%;
-    color: black;
+    color: whitesmoke;
+}
+.gm{
+    margin-left: 10px;
+}
+
+.listsnimelist{
+    /* width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    grid-gap: 20px; */
+    justify-content: space-around;
+    padding-top: 20px;
+    display: grid;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px 20px;
 }
 
 
@@ -148,10 +194,36 @@ body{
         }
         .a4{
             margin-left: 5%;
-            text-decoration: aqua underline;
+            /* text-decoration: aqua underline; */
             cursor: pointer;
             color: black;
         }
+        /* list */
+        .az{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .listaz{
+            width: 10%;
+            height: 10%;
+        }
+        .listsnimelist{
+            /* width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-items: center;
+            grid-gap: 20px; */
+            justify-content: space-around;
+            padding-top: 40px;
+            display: grid;
+            width: 100%;
+            max-width: 750px;
+            margin: 0 auto;
+            grid-template-columns: repeat(6, 12%);
+            grid-gap: 10px 10px;
        
+        }
     }
     

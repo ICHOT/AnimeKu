@@ -17,10 +17,10 @@
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
-<script src="<?= base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url('assets/'); ?>sb2/vendor/jquery/jquery.min.js"></script>
+<script src="<?= base_url('assets/'); ?>bootstrap4/js/bootstrap.bundle.min.js"></script>
 <!-- SweetAlert2 -->
-<script src="sweetalert2.all.min.js"></script>
+<script src="<?= base_url('assets/'); ?>js/sweetalert2.all.min.js"></script>
 
 
 

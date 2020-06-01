@@ -34,15 +34,15 @@
 
 
 <!-- grup list -->
-<br/>
- <div class="paket">
-    <div><a href="<?= base_url('');?>"><button type="button" class="btn btn-outline-secondary">HOME</button> </a></div>
-    <div><a href="<?php echo $domain ;?>listanime"><button type="button" class="btn btn-outline-secondary">LIST</button></a></div>
-    
-    <div><a href="<?= base_url('anime/');?>"><button type="button" class="btn btn-outline-secondary">ONGOING</button></a></div>
-    <!-- <div><a href="<?= base_url('anime/');?>"><button type="button" class="btn btn-outline-secondary">GENRE</button></a></div> -->
-    <div><a href="<?= base_url('auth/');?>"><button type="button" id="login" class="btn btn-outline-secondary">ADMIN</button></a></div>
+<br />
+<div class="paket">
+  <div><a href="<?= base_url(''); ?>"><button type="button" class="btn btn-outline-secondary">HOME</button> </a></div>
+  <div><a href="<?php echo $domain; ?>listanime"><button type="button" class="btn btn-outline-secondary">LIST</button></a></div>
+
+  <div><a href="<?php echo $domain; ?>Genre"><button type="button" class="btn btn-outline-secondary">GENRE</button></a></div>
+  <!-- <div><a href="<?= base_url('anime/'); ?>"><button type="button" class="btn btn-outline-secondary">GENRE</button></a></div> -->
+  <div><a href="<?= base_url('auth/'); ?>"><button type="button" id="login" class="btn btn-outline-secondary">ADMIN</button></a></div>
 </div>
-<br/>
+<br />
 <!-- pemisah -->
-<button type="button" class="btn mb-2 btn-secondary btn-lg btn-block">ANIME ON-GOING</button> 
+<button type="button" class="btn mb-2 btn-secondary btn-lg btn-block">ANIME ON-GOING</button>

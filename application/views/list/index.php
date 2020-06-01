@@ -1,32 +1,32 @@
-<!-- <div class="az paket">
-
-<a class="btn btn-primary" href="#0">0-9</a>
-<a class="btn btn-primary" href="#A">A</a>
-<a class="btn btn-primary" href="#B">B</a>
-<a class="btn btn-primary" href="#C">C</a>
-<a class="btn btn-primary" href="#D">D</a>
-<a class="btn btn-primary" href="#E">E</a>
-<a class="btn btn-primary" href="#F">F</a>
-<a class="btn btn-primary" href="#G">G</a>
-<a class="btn btn-primary" href="#H">H</a>
-</div><div class="az paket">
-<a class="btn btn-primary" href="#I">I</a>
-<a class="btn btn-primary" href="#J">J</a>
-<a class="btn btn-primary" href="#K">K</a>
-<a class="btn btn-primary" href="#L">L</a>
-<a class="btn btn-primary" href="#M">M</a>
-<a class="btn btn-primary" href="#N">N</a>
-<a class="btn btn-primary" href="#O">O</a>
-<a class="btn btn-primary" href="#P">P</a>
-<a class="btn btn-primary" href="#Q">Q</a>
-</div><div class="az paket">
-<a class="btn btn-primary" href="#R">R</a>
-<a class="btn btn-primary" href="#S">S</a>
-<a class="btn btn-primary" href="#T">T</a>
-<a class="btn btn-primary" href="#U">U</a>
-<a class="btn btn-primary" href="#V">V</a>
-<a class="btn btn-primary" href="#W">W</a>
-<a class="btn btn-primary" href="#X">X</a>
-<a class="btn btn-primary" href="#Y">Y</a>
-<a class="btn btn-primary" href="#Z">Z</a>
-</div> -->
+<br>
+<div class="az paket">
+  <div class="btn listaz btn-outline-secondary"><a href="#0">#</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#A">A</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#B">B</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#C">C</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#D">D</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#E">E</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#F">F</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#G">G</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#H">H</a></div>
+  <br>
+  <div class="btn listaz btn-outline-secondary"><a href="#I">I</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#J">J</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#K">K</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#L">L</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#M">M</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#N">N</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#O">O</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#P">P</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#Q">Q</a></div>
+  <br>
+  <div class="btn listaz btn-outline-secondary"><a href="#R">R</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#S">S</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#T">T</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#U">U</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#V">V</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#W">W</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#X">X</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#Y">Y</a></div>
+  <div class="btn listaz btn-outline-secondary"><a href="#Z">Z</a></div>
+</div>
